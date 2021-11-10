@@ -1,13 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0d437b0-9939-4c91-bfd5-2fbbe85740a2" name="Default Changelist" comment="" />
+    <list default="true" id="d0d437b0-9939-4c91-bfd5-2fbbe85740a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProfilePlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputAcceleration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TapeBackgroundView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Root.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TapeBackgroundController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourceLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseInputView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SubscriptionProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcePath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Background.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputGameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IReadOnlySubscriptionProperty.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Car.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IReadOnlySubscriptionProperty.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SubscriptionProperty.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProfilePlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcePath.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourceLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CarView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CarController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Background.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BaseInputView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InputAcceleration.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InputGameController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Root.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TapeBackgroundController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TapeBackgroundView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+    </changedPaths>
+  </component>
   <component name="ProjectId" id="20inMBTAuldIG310HpiV4Y6y0F9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1636536227935</updated>
       <workItem from="1636536255679" duration="866000" />
+      <workItem from="1636537984605" duration="5003000" />
     </task>
     <servers />
   </component>
@@ -56,6 +112,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

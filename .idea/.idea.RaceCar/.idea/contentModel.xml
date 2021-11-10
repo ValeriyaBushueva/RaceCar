@@ -37,6 +37,29 @@
         <e p="Resources" t="Include">
           <e p="BillingMode.json" t="Include" />
         </e>
+        <e p="Scripts" t="Include">
+          <e p="Background.cs" t="Include" />
+          <e p="BaseController.cs" t="Include" />
+          <e p="BaseInputView.cs" t="Include" />
+          <e p="Car.cs" t="Include" />
+          <e p="CarController.cs" t="Include" />
+          <e p="CarView.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
+          <e p="GameState.cs" t="Include" />
+          <e p="InputAcceleration.cs" t="Include" />
+          <e p="InputGameController.cs" t="Include" />
+          <e p="IReadOnlySubscriptionProperty.cs" t="Include" />
+          <e p="MainController.cs" t="Include" />
+          <e p="MainMenuController.cs" t="Include" />
+          <e p="MainMenuView.cs" t="Include" />
+          <e p="ProfilePlayer.cs" t="Include" />
+          <e p="ResourceLoader.cs" t="Include" />
+          <e p="ResourcePath.cs" t="Include" />
+          <e p="Root.cs" t="Include" />
+          <e p="SubscriptionProperty.cs" t="Include" />
+          <e p="TapeBackgroundController.cs" t="Include" />
+          <e p="TapeBackgroundView.cs" t="Include" />
+        </e>
         <e p="Standard Assets" t="Include">
           <e p="CrossPlatformInput" t="Include">
             <e p="CrossPlatformInputGuidelines.txt" t="Include" />
