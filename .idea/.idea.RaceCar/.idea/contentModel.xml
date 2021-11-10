@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Бушуев\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Бушуев\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_RaceCar.-1394293079.00" t="ExcludeRecursive" />
+    <e p="D:\GeekBrains\RaceCar" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="UnityPurchasing" t="Include">
+            <e p="Editor" t="Include">
+              <e p="IAPButtonEditor.cs" t="Include" />
+              <e p="IAPGeneratedCredentials.cs.template" t="Include" />
+              <e p="IAPUpdaterPreferences.json" t="Include" />
+            </e>
+            <e p="license.txt" t="Include" />
+            <e p="script" t="Include">
+              <e p="CodelessIAPStoreListener.cs" t="Include" />
+              <e p="ComboBox.cs" t="Include" />
+              <e p="Demo" t="Include">
+                <e p="DemoInventory.cs" t="Include" />
+              </e>
+              <e p="IAPButton.cs" t="Include" />
+              <e p="IAPConfigurationHelper.cs" t="Include" />
+              <e p="IAPDemo.cs" t="Include" />
+              <e p="IAPDemoProductUI.cs" t="Include" />
+              <e p="IAPListener.cs" t="Include" />
+              <e p="link.xml" t="Include" />
+              <e p="PurchasingCheck.cs" t="Include" />
+            </e>
+            <e p="third party notices.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="BillingMode.json" t="Include" />
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="CrossPlatformInput" t="Include">
+            <e p="CrossPlatformInputGuidelines.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="AxisTouchButton.cs" t="Include" />
+              <e p="ButtonHandler.cs" t="Include" />
+              <e p="CrossPlatformInputManager.cs" t="Include" />
+              <e p="InputAxisScrollbar.cs" t="Include" />
+              <e p="Joystick.cs" t="Include" />
+              <e p="MobileControlRig.cs" t="Include" />
+              <e p="PlatformSpecific" t="Include">
+                <e p="MobileInput.cs" t="Include" />
+                <e p="StandaloneInput.cs" t="Include" />
+              </e>
+              <e p="TiltInput.cs" t="Include" />
+              <e p="TouchPad.cs" t="Include" />
+              <e p="VirtualInput.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UpdateManager" t="Include">
+          <e p="Example Scene" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Cloner.cs" t="Include" />
+              <e p="Counter.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="ClonerEditor.cs" t="Include" />
+              </e>
+              <e p="ExampleEventUpdate.cs" t="Include" />
+              <e p="ExampleUnityUpdate.cs" t="Include" />
+              <e p="ExampleUpdateManagerUpdate.cs" t="Include" />
+            </e>
+          </e>
+          <e p="READ ME.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="OverridableMonoBehaviour.cs" t="Include" />
+            <e p="UpdateManager.cs" t="Include" />
+            <e p="Utility" t="Include">
+              <e p="Singleton.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="RaceCar.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
