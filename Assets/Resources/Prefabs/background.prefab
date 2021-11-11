@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3964461214129220861}
   - component: {fileID: 3041759023331106558}
-  - component: {fileID: 140737336}
+  - component: {fileID: 1223594786656587260}
   m_Layer: 0
   m_Name: ground1
   m_TagString: Untagged
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &140737336
+--- !u!114 &1223594786656587260
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,12 +91,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1670990735255490663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b368719156d46474b852e8c56e609477, type: 3}
+  m_Script: {fileID: 11500000, guid: 659d117e3709cd045bcde587de641be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _leftBorder: -17.81
-  _rightBorder: 17.82
-  _relativeSpeedRate: 1
+  _leftBorder: -20.45
+  _rightBorder: 20.46
+  _relativeSpeedRate: 0.3
 --- !u!1 &2568450156852823711
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,7 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8954071555566784289}
   - component: {fileID: 2189392900481106643}
-  - component: {fileID: 2456894769269428648}
+  - component: {fileID: 9037550132550742138}
   m_Layer: 0
   m_Name: sky2
   m_TagString: Untagged
@@ -179,7 +179,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2456894769269428648
+--- !u!114 &9037550132550742138
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2568450156852823711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b368719156d46474b852e8c56e609477, type: 3}
+  m_Script: {fileID: 11500000, guid: 659d117e3709cd045bcde587de641be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _leftBorder: -20.45
@@ -203,6 +203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5432084578531805737}
+  - component: {fileID: 4127045858069983449}
   m_Layer: 0
   m_Name: background
   m_TagString: Untagged
@@ -225,6 +226,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4127045858069983449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2807479611546755954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e4ada17042a2348beb51a74dcacafc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _backgrounds:
+  - {fileID: 6812246264350484365}
+  - {fileID: 9037550132550742138}
+  - {fileID: 8885459346053174553}
+  - {fileID: 1223594786656587260}
+  - {fileID: 4544636516927964275}
+  - {fileID: 2330060089489469653}
 --- !u!1 &3326407923804462301
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7906858733616461767}
   - component: {fileID: 6493526716158383502}
-  - component: {fileID: 1190817787}
+  - component: {fileID: 2330060089489469653}
   m_Layer: 0
   m_Name: ground3
   m_TagString: Untagged
@@ -307,7 +327,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1190817787
+--- !u!114 &2330060089489469653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -316,12 +336,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3326407923804462301}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b368719156d46474b852e8c56e609477, type: 3}
+  m_Script: {fileID: 11500000, guid: 659d117e3709cd045bcde587de641be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _leftBorder: -17.81
-  _rightBorder: 17.82
-  _relativeSpeedRate: 1
+  _leftBorder: -20.45
+  _rightBorder: 20.46
+  _relativeSpeedRate: 0.3
 --- !u!1 &3590461184429166328
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5613625946660804523}
   - component: {fileID: 5355979326759684142}
-  - component: {fileID: 1589075209}
+  - component: {fileID: 4544636516927964275}
   m_Layer: 0
   m_Name: ground2
   m_TagString: Untagged
@@ -404,7 +424,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1589075209
+--- !u!114 &4544636516927964275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -413,12 +433,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3590461184429166328}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b368719156d46474b852e8c56e609477, type: 3}
+  m_Script: {fileID: 11500000, guid: 659d117e3709cd045bcde587de641be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _leftBorder: -17.81
-  _rightBorder: 17.82
-  _relativeSpeedRate: 1
+  _leftBorder: -20.45
+  _rightBorder: 20.46
+  _relativeSpeedRate: 0.3
 --- !u!1 &5625024096290961257
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6000352881310598706}
   - component: {fileID: 5697250785135903187}
-  - component: {fileID: 2418015379518058441}
+  - component: {fileID: 8885459346053174553}
   m_Layer: 0
   m_Name: sky3
   m_TagString: Untagged
@@ -501,7 +521,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2418015379518058441
+--- !u!114 &8885459346053174553
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -510,7 +530,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5625024096290961257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b368719156d46474b852e8c56e609477, type: 3}
+  m_Script: {fileID: 11500000, guid: 659d117e3709cd045bcde587de641be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _leftBorder: -20.45
@@ -526,7 +546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6713280446604109337}
   - component: {fileID: 1784686256225151229}
-  - component: {fileID: 4491843096377460275}
+  - component: {fileID: 6812246264350484365}
   m_Layer: 0
   m_Name: sky1
   m_TagString: Untagged
@@ -598,7 +618,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4491843096377460275
+--- !u!114 &6812246264350484365
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -607,7 +627,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7039704320274304650}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b368719156d46474b852e8c56e609477, type: 3}
+  m_Script: {fileID: 11500000, guid: 659d117e3709cd045bcde587de641be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _leftBorder: -20.45

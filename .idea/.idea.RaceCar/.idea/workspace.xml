@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0d437b0-9939-4c91-bfd5-2fbbe85740a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Editor.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Editor.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Stores.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/UnityPurchasing/Bin/Stores.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/background.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/background.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/mainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/mainMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene_1.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1636536227935</updated>
       <workItem from="1636536255679" duration="866000" />
-      <workItem from="1636537984605" duration="5003000" />
+      <workItem from="1636537984605" duration="6324000" />
+      <workItem from="1636637670872" duration="415000" />
     </task>
     <servers />
   </component>
@@ -122,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
