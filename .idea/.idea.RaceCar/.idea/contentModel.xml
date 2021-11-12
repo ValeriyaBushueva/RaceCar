@@ -38,12 +38,21 @@
           <e p="BillingMode.json" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="Ads" t="Include">
+            <e p="IAdsShower.cs" t="Include" />
+            <e p="UnityAdsTools.cs" t="Include" />
+          </e>
+          <e p="Analitics" t="Include">
+            <e p="IAnaliticTools.cs" t="Include" />
+            <e p="UnityAnaliticTools.cs" t="Include" />
+          </e>
           <e p="Background.cs" t="Include" />
           <e p="BaseController.cs" t="Include" />
           <e p="BaseInputView.cs" t="Include" />
           <e p="Car.cs" t="Include" />
           <e p="CarController.cs" t="Include" />
           <e p="CarView.cs" t="Include" />
+          <e p="FollowCursor.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="GameState.cs" t="Include" />
           <e p="InputAcceleration.cs" t="Include" />
@@ -52,6 +61,7 @@
           <e p="MainController.cs" t="Include" />
           <e p="MainMenuController.cs" t="Include" />
           <e p="MainMenuView.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="ProfilePlayer.cs" t="Include" />
           <e p="ResourceLoader.cs" t="Include" />
           <e p="ResourcePath.cs" t="Include" />
