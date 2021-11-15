@@ -251,8 +251,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 10305, guid: 0000000000000000f000000000000000, type: 0}
-  AndroidKeystoreName: '{inproject}: user.keystore'
-  AndroidKeyaliasName: secondwork
+  AndroidKeystoreName: '{inproject}: userPassword.keystore'
+  AndroidKeyaliasName: racecar
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1

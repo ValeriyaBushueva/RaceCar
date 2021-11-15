@@ -4,36 +4,10 @@
     <e p="C:\Users\Бушуев\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Бушуев\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_RaceCar.-1394293079.00" t="ExcludeRecursive" />
     <e p="D:\GeekBrains\RaceCar" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Plugins" t="Include">
-          <e p="UnityPurchasing" t="Include">
-            <e p="Editor" t="Include">
-              <e p="IAPButtonEditor.cs" t="Include" />
-              <e p="IAPGeneratedCredentials.cs.template" t="Include" />
-              <e p="IAPUpdaterPreferences.json" t="Include" />
-            </e>
-            <e p="license.txt" t="Include" />
-            <e p="script" t="Include">
-              <e p="CodelessIAPStoreListener.cs" t="Include" />
-              <e p="ComboBox.cs" t="Include" />
-              <e p="Demo" t="Include">
-                <e p="DemoInventory.cs" t="Include" />
-              </e>
-              <e p="IAPButton.cs" t="Include" />
-              <e p="IAPConfigurationHelper.cs" t="Include" />
-              <e p="IAPDemo.cs" t="Include" />
-              <e p="IAPDemoProductUI.cs" t="Include" />
-              <e p="IAPListener.cs" t="Include" />
-              <e p="link.xml" t="Include" />
-              <e p="PurchasingCheck.cs" t="Include" />
-            </e>
-            <e p="third party notices.txt" t="Include" />
-          </e>
-        </e>
         <e p="Resources" t="Include">
           <e p="BillingMode.json" t="Include" />
         </e>
@@ -52,16 +26,35 @@
           <e p="Car.cs" t="Include" />
           <e p="CarController.cs" t="Include" />
           <e p="CarView.cs" t="Include" />
+          <e p="Data" t="Include">
+            <e p="ItemConfig.cs" t="Include" />
+            <e p="UpdateItemConfig.cs" t="Include" />
+            <e p="UpgradeItemConfigDataSource.cs" t="Include" />
+          </e>
           <e p="FollowCursor.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="GameState.cs" t="Include" />
           <e p="InputAcceleration.cs" t="Include" />
           <e p="InputGameController.cs" t="Include" />
+          <e p="Inventory" t="Include">
+            <e p="IInventoryController.cs" t="Include" />
+            <e p="IInventoryModel.cs" t="Include" />
+            <e p="IInventoryView.cs" t="Include" />
+            <e p="InventoryController.cs" t="Include" />
+            <e p="InventoryModel.cs" t="Include" />
+            <e p="InventoryView.cs" t="Include" />
+          </e>
           <e p="IReadOnlySubscriptionProperty.cs" t="Include" />
+          <e p="Item" t="Include">
+            <e p="IItem.cs" t="Include" />
+            <e p="IItemsRepository.cs" t="Include" />
+            <e p="Item.cs" t="Include" />
+            <e p="ItemInfo.cs" t="Include" />
+            <e p="ItemsRepository.cs" t="Include" />
+          </e>
           <e p="MainController.cs" t="Include" />
           <e p="MainMenuController.cs" t="Include" />
           <e p="MainMenuView.cs" t="Include" />
-          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="ProfilePlayer.cs" t="Include" />
           <e p="ResourceLoader.cs" t="Include" />
           <e p="ResourcePath.cs" t="Include" />

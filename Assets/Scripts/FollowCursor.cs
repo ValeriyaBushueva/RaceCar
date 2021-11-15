@@ -1,15 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class FollowCursor : MonoBehaviour
 {
-    void Start()
+   private void Start()
     {
         Cursor.visible = false;
     }
     
-    void Update()
+    private void Update()
     {
         Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = pos;
