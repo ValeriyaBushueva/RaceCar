@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Inventory.View;
+using UnityEngine;
 
 public class InventoryController : BaseController, IInventoryController
 {
@@ -9,7 +11,8 @@ public class InventoryController : BaseController, IInventoryController
     {
         _inventoryModel = new InventoryModel();
         _itemsRepository = new ItemsRepository(itemConfigs);
-        _inventoryView = new InventoryView();
+        _inventoryView = Object.FindObjectOfType<InventoryViewComponent>();
+
     }
     public void ShowInventory()
     {

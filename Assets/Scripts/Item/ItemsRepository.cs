@@ -28,7 +28,8 @@ public class ItemsRepository :  BaseController,IItemsRepository
         return  new Item
         {
             Id = config._Id,
-            ItemInfo = new ItemInfo{Title = config.Title}
+            ItemInfo = new ItemInfo{Title = config.Title, Sprite = config.Sprite}
+            
         };
     }
 
