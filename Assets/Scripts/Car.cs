@@ -1,6 +1,6 @@
-﻿public class Car
+﻿public class Car: IUpgradableCar
 {
-    public float Speed { get;}
+    public float Speed { get; set; }
 
     public Car(float speed)
     {

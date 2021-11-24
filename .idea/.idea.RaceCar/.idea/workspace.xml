@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0d437b0-9939-4c91-bfd5-2fbbe85740a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/View/InventorySpotView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/View/InventorySpotView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/View/InventoryViewComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/View/InventoryViewComponent.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Tire.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Tire.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Window.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Window.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scene_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/ItemConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/ItemConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/UpdateItemConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/UpdateItemConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/IInventoryView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/IInventoryView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/ItemInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/ItemsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/UpdateItemConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/UpgradeItemConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/UpdateItemConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/UpgradeItemConfig.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/UpgradeItemConfigDataSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/UpgradeItemConfigDataSource.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +18,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ability/IAbilityCollectionView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProfilePlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ItemInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/IInventoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TapeBackgroundView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ability/IAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Root.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TapeBackgroundController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Analitics/IAnaliticTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ability/IAbilitiesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SubscriptionProperty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/UpgradeItemConfigDataSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ability/AbilityCollectionView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/IItemsRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputGameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IReadOnlySubscriptionProperty.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,29 +45,21 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/IItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseView/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/UpdateItemConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/UpgradeItemConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/AbilityItemConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourceLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseInputView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/ItemConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcePath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Background.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/IInventoryModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ability/BombAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Analitics/UnityAnaliticTools.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Car.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/IReadOnlySubscriptionProperty.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SubscriptionProperty.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcePath.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ResourceLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CarView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CarController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Background.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BaseInputView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputAcceleration.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputGameController.cs" />
@@ -109,6 +93,24 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemInfo.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/View/InventoryViewComponent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ability/IAbility.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ability/IAbilitiesController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ability/BombAbility.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Data/AbilityItemConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BaseView/IRepository.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BaseView/IView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ability/IAbilityCollectionView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ability/AbilityRepository.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ability/AbilitiesController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ability/AbilityCollectionView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shed/IShedController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shed/IUpgradableCar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shed/IUpgradeHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shed/SpeedUpgradeCarHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shed/UpgradeHandlersRepository.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Data/UpgradeItemConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shed/ShedController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Car.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20inMBTAuldIG310HpiV4Y6y0F9" />
@@ -158,7 +160,10 @@
       <workItem from="1636712248186" duration="4577000" />
       <workItem from="1636970833998" duration="7962000" />
       <workItem from="1637170614733" duration="624000" />
-      <workItem from="1637243470761" duration="3359000" />
+      <workItem from="1637243470761" duration="4555000" />
+      <workItem from="1637332634054" duration="600000" />
+      <workItem from="1637487993438" duration="4525000" />
+      <workItem from="1637771377665" duration="765000" />
     </task>
     <servers />
   </component>

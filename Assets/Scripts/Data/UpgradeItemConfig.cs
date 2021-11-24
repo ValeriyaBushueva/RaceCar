@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = " Upgrade Item", menuName = " Upgrade Item", order = 1)]
-public class UpdateItemConfig : ScriptableObject
+public class UpgradeItemConfig : ScriptableObject
 {
     [SerializeField] private ItemConfig _itemConfig;
     [SerializeField] private UpgradeType _upgradeType;
@@ -9,6 +9,8 @@ public class UpdateItemConfig : ScriptableObject
 
 
     public int Id => _itemConfig._Id;
+
+    public ItemConfig ItemConfig => _itemConfig;
 
     public UpgradeType UpgradeType => _upgradeType;
 

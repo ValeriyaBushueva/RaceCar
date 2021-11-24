@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e382cbb456ec7a46a09bee89b22676f, type: 3}
+  m_Name: CannonBomb
+  m_EditorClassIdentifier: 
+  _itemConfig: {fileID: 11400000, guid: e8c0478a7df7cea4d8072c9c77da02d3, type: 2}
+  _view: {fileID: 4053592497838757858, guid: c01bf4c76fb7e3948b2bb90e1cb87bb4, type: 3}
+  _abilityType: 2
+  _value: 30

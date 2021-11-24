@@ -12,6 +12,15 @@
           <e p="BillingMode.json" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="Ability" t="Include">
+            <e p="AbilitiesController.cs" t="Include" />
+            <e p="AbilityCollectionView.cs" t="Include" />
+            <e p="AbilityRepository.cs" t="Include" />
+            <e p="BombAbility.cs" t="Include" />
+            <e p="IAbilitiesController.cs" t="Include" />
+            <e p="IAbility.cs" t="Include" />
+            <e p="IAbilityCollectionView.cs" t="Include" />
+          </e>
           <e p="Ads" t="Include">
             <e p="IAdsShower.cs" t="Include" />
             <e p="UnityAdsTools.cs" t="Include" />
@@ -23,12 +32,17 @@
           <e p="Background.cs" t="Include" />
           <e p="BaseController.cs" t="Include" />
           <e p="BaseInputView.cs" t="Include" />
+          <e p="BaseView" t="Include">
+            <e p="IRepository.cs" t="Include" />
+            <e p="IView.cs" t="Include" />
+          </e>
           <e p="Car.cs" t="Include" />
           <e p="CarController.cs" t="Include" />
           <e p="CarView.cs" t="Include" />
           <e p="Data" t="Include">
+            <e p="AbilityItemConfig.cs" t="Include" />
             <e p="ItemConfig.cs" t="Include" />
-            <e p="UpdateItemConfig.cs" t="Include" />
+            <e p="UpgradeItemConfig.cs" t="Include" />
             <e p="UpgradeItemConfigDataSource.cs" t="Include" />
           </e>
           <e p="FollowCursor.cs" t="Include" />
@@ -63,6 +77,14 @@
           <e p="ResourceLoader.cs" t="Include" />
           <e p="ResourcePath.cs" t="Include" />
           <e p="Root.cs" t="Include" />
+          <e p="Shed" t="Include">
+            <e p="IShedController.cs" t="Include" />
+            <e p="IUpgradableCar.cs" t="Include" />
+            <e p="IUpgradeHandler.cs" t="Include" />
+            <e p="ShedController.cs" t="Include" />
+            <e p="SpeedUpgradeCarHandler.cs" t="Include" />
+            <e p="UpgradeHandlersRepository.cs" t="Include" />
+          </e>
           <e p="SubscriptionProperty.cs" t="Include" />
           <e p="TapeBackgroundController.cs" t="Include" />
           <e p="TapeBackgroundView.cs" t="Include" />
