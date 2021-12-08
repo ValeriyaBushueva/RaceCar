@@ -73,8 +73,13 @@
             <e p="UpgradeItemConfigDataSource.cs" t="Include" />
           </e>
           <e p="DataPlayer.cs" t="Include" />
-          <e p="DataType.cs" t="Include" />
-          <e p="Enemy.cs" t="Include" />
+          <e p="Fight" t="Include">
+            <e p="DataType.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="FightWindowController.cs" t="Include" />
+            <e p="StartFightController.cs" t="Include" />
+            <e p="StartFightView.cs" t="Include" />
+          </e>
           <e p="FightWindowView.cs" t="Include" />
           <e p="FollowCursor.cs" t="Include" />
           <e p="GameController.cs" t="Include" />

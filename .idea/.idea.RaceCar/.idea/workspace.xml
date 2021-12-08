@@ -4,10 +4,15 @@
     <list default="true" id="d0d437b0-9939-4c91-bfd5-2fbbe85740a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RaceCar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/mainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/mainMenu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenuView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenuView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fight Window.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fight Window.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FightWindowView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FightWindowView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Root.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Root.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ItemInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/IInventoryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TapeBackgroundView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fight/StartFightController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ability/IAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Root.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputAcceleration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fight/FightWindowController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/IItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarView.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,11 +69,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Analitics/IAnaliticTools.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Analitics/UnityAnaliticTools.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Ads/IAdsShower.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ProfilePlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Ads/UnityAdsTools.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FollowCursor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Data/UpgradeItemConfigDataSource.cs" />
@@ -77,8 +79,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/IInventoryView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MainController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Root.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item/IItemsRepository.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/View/InventoryView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/View/InventoryViewComo.cs" />
@@ -113,6 +113,13 @@
       <option value="$PROJECT_DIR$/Assets/RewardScripts/CurencyController.cs" />
       <option value="$PROJECT_DIR$/Assets/RewardScripts/DailyRewardView.cs" />
       <option value="$PROJECT_DIR$/Assets/RewardScripts/DailyRewardController.cs" />
+      <option value="$PROJECT_DIR$/Assets/RewardScripts/InstallView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Fight/StartFightView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Fight/StartFightController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FightWindowView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Fight/FightWindowController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Root.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20inMBTAuldIG310HpiV4Y6y0F9" />
@@ -166,7 +173,8 @@
       <workItem from="1637332634054" duration="600000" />
       <workItem from="1637487993438" duration="4525000" />
       <workItem from="1637771377665" duration="765000" />
-      <workItem from="1638554995061" duration="3786000" />
+      <workItem from="1638554995061" duration="4538000" />
+      <workItem from="1638796013398" duration="7590000" />
     </task>
     <servers />
   </component>

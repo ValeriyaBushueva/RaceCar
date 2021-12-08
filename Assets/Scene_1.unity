@@ -159,6 +159,14 @@ MonoBehaviour:
   _itemsConfig:
   - {fileID: 11400000, guid: 7188ceb24462c0241bec02f76fb3cb55, type: 2}
   - {fileID: 11400000, guid: 0d3b5c0e6f32b184ab3fb50eee5d57ac, type: 2}
+  _dailyRewardView: {fileID: 2528338617077312431, guid: 7b2fc800aa14a6647b98f3b2496a2b6a,
+    type: 3}
+  _currencyView: {fileID: 5324069478821586887, guid: 51f46c3f9345591468c009866b8674a3,
+    type: 3}
+  _fightWindowView: {fileID: 6022012007212133372, guid: c280388ff71a6bc48b081ea6bd265cd8,
+    type: 3}
+  _startFightView: {fileID: 7457319005342465865, guid: 94b0fb11e5e86fc4c906a8b5d1fef89c,
+    type: 3}
 --- !u!114 &79184388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,7 +514,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 677210128}
   m_HandleRect: {fileID: 677210127}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -750,7 +758,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1310161678}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.9999999
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1233,10 +1241,10 @@ RectTransform:
   m_Father: {fileID: 213135303}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.3377989}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.200012, y: -31.399887}
-  m_SizeDelta: {x: -7.7164917, y: -125.247925}
+  m_AnchoredPosition: {x: -4.200012, y: -44.200012}
+  m_SizeDelta: {x: -7.7164917, y: -99.59015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647009592
 MonoBehaviour:

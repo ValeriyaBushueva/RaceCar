@@ -21,126 +21,31 @@ public class FightWindowView : MonoBehaviour
     [SerializeField] private Button _minusPowerButton;
     
     [SerializeField] private Button _fightButton;
-
-    private Money _money;
-    private Health _health;
-    private Power _power;
     
-    private Enemy _enemy;
+    [SerializeField] private Button _leaveFightButton;
 
-    private int _allCountMoneyPlayer;
-    private int _allCountHealthPlayer;
-    private int _allCountPowerPlayer;
+   
 
-    private void Start()
-    {
-        _enemy = new Enemy("Enemy");
-        
-        _money = new Money();
-        _money.Attach(_enemy);
-        
-        _health = new Health();
-        _health.Attach(_enemy);
+    public TMP_Text CountMoneyText => _countMoneyText;
 
-        _power = new Power();
-      _power.Attach(_enemy);
-      
-      _addCoinsButton.onClick.AddListener((() => ChangeMoney(true)));
-      _minusCoinsButton.onClick.AddListener((() => ChangeMoney(false)));
-      
-      _addHealthButton.onClick.AddListener((() => ChangeHealth(true)));
-      _minusHealthButton.onClick.AddListener((() => ChangeHealth(false)));
-      
-      _addPowerButton.onClick.AddListener((() => ChangePower(true)));
-      _minusPowerButton.onClick.AddListener((() => ChangePower(false)));
-      
-      _fightButton.onClick.AddListener(Fight);
-    }
+    public TMP_Text CountHealthText => _countHealthText;
 
-    private void OnDestroy()
-    {
-        _addCoinsButton.onClick.RemoveAllListeners();
-        _minusCoinsButton.onClick.RemoveAllListeners();
-      
-        _addHealthButton.onClick.RemoveAllListeners();
-        _minusHealthButton.onClick.RemoveAllListeners();
-      
-        _addPowerButton.onClick.RemoveAllListeners();
-        _minusPowerButton.onClick.RemoveAllListeners();
-      
-        _fightButton.onClick.RemoveAllListeners();
-        
-        _money.Detach(_enemy);
-       _health.Detach(_enemy);
-        _power.Detach(_enemy);
-    }
+    public TMP_Text CountPowerText => _countPowerText;
 
-    private void Fight()
-    {
-        Debug.Log(_allCountPowerPlayer > _enemy.Power ? "Win" : "Lose");
-    }
+    public TMP_Text CountPowerEnemyText => _countPowerEnemyText;
 
-    private void ChangeMoney(bool isAddCount)
-    {
-        if (isAddCount)
-        {
-            _allCountMoneyPlayer++;
-        }
-        else
-        {
-            _allCountMoneyPlayer--;
-        }
+    public Button AddCoinsButton => _addCoinsButton;
 
-        ChangeDataWindow( _allCountMoneyPlayer, DataType.Money);
-    }
+    public Button MinusCoinsButton => _minusCoinsButton;
 
-    private void ChangeHealth(bool isAddCount)
-    {
-        if (isAddCount)
-        {
-            _allCountHealthPlayer++;
-        }
-        else
-        {
-            _allCountHealthPlayer--;
-        }
+    public Button AddHealthButton => _addHealthButton;
 
-        ChangeDataWindow( _allCountMoneyPlayer, DataType.Health);
-    }
-    private void ChangePower(bool isAddCount)
-    {
-        if (isAddCount)
-        {
-            _allCountPowerPlayer++;
-        }
-        else
-        {
-            _allCountPowerPlayer--;
-        }
+    public Button MinusHealthButton => _minusHealthButton;
 
-        ChangeDataWindow( _allCountMoneyPlayer, DataType.Power);
-    }
-    
-    
+    public Button AddPowerButton => _addPowerButton;
 
-    private void ChangeDataWindow(int countChangeData, DataType dataType)
-    {
-        switch (dataType)
-        {
-            case DataType.Money:
-                _countMoneyText.text = $"Player Money: {countChangeData}";
-                _money.CountMoney = countChangeData;
-                break;
-            case DataType.Health:
-                _countHealthText.text = $"PlayerHealth: {countChangeData}";
-                _health.CountHealth = countChangeData;
-                break;
-            case DataType.Power:
-                _countPowerText.text = $"Player Power: {countChangeData}";
-                _power.CountPower = countChangeData;
-                break;
-        }
-        
-        _countPowerEnemyText.text = $"Player Enemy: {_enemy.Power}";
-    }
+    public Button MinusPowerButton => _minusPowerButton;
+
+    public Button FightButton => _fightButton;
+    public Button LeaveFightButton => _leaveFightButton;
 }

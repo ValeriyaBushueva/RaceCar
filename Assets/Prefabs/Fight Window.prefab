@@ -1603,6 +1603,7 @@ MonoBehaviour:
   _addPowerButton: {fileID: 4554295086064074072}
   _minusPowerButton: {fileID: 4554295086738946119}
   _fightButton: {fileID: 4554295084965447652}
+  _leaveFightButton: {fileID: 1427548871589479145}
 --- !u!1 &4554295086494119779
 GameObject:
   m_ObjectHideFlags: 0
